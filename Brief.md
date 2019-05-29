@@ -54,3 +54,14 @@ function:
 3. provides configuration information through its properties like selector and templateUrl
  3.1 The selector property specifies a CSS selector that matches the HTML element to which the component will be applied
  3.2 The templateUrl property is to specify the component’s template location
+
+
+### class
+```
+export class AppComponent {
+ model = new Model();
+ getName() {
+ return this.model.user;
+ }
+}
+```
