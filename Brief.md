@@ -23,7 +23,7 @@ data or types that you want to use elsewhere in the application. JavaScript modu
 dependencies that arise between files in a project and avoid having to manually manage a complex set of
 script elements in the HTML file. See Chapter 7 for details of how modules work.
 
-
+### import
 ```
 import { Component } from "@angular/core";
 import { Model } from "./model";
@@ -39,3 +39,17 @@ kind of import starts with ./, which indicates that the module is defined relati
 Notice that neither import statement includes a file extension. This is because the relationship between
 the target of an import statement and the file that is loaded by the browser is managed by a module loader,
 which I configure in the “Putting the Application Together” section.
+
+### decorator
+```
+@Component({
+selector: "todo-app",
+templateUrl: "app.component.html"
+})
+```
+
+function: 
+1. provides metadata about a class
+2. tells Angular that this is a component
+3. provides configuration information through its properties like selector and templateUrl
+
