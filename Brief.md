@@ -91,3 +91,10 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule(AppModule)
 .catch(err => console.log(err));
 ```
+This file is only for browser-based platform.
+
+Calling the platformBrowserDynamic().bootstrapModule method is for browser-based applications,
+which is what I focus on in this book. If you are working on different platforms, such as the Ionic mobile
+development framework, then you will have to use a different bootstrap method specific to the platform you are
+working with. The developers of each platform that supports Angular provide details of their platform-specific
+bootstrap method.
