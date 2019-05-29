@@ -98,3 +98,12 @@ which is what I focus on in this book. If you are working on different platforms
 development framework, then you will have to use a different bootstrap method specific to the platform you are
 working with. The developers of each platform that supports Angular provide details of their platform-specific
 bootstrap method.
+
+### Round-trip
+
+The browser requests an initial
+HTML document from the server. User interactions—such as clicking a link or submitting a form—led the
+browser to request and receive a completely new HTML document. In this kind of application, the browser
+is essentially a rending engine for HTML content, and all of the application logic and data resides on the
+server. The browser makes a series of stateless HTTP requests that the server handles by generating HTML
+documents dynamically.
