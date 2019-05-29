@@ -22,3 +22,20 @@ file is considered to be a self-contained unit of functionality, and the export 
 data or types that you want to use elsewhere in the application. JavaScript modules are used to manage the
 dependencies that arise between files in a project and avoid having to manually manage a complex set of
 script elements in the HTML file. See Chapter 7 for details of how modules work.
+
+
+```
+import { Component } from "@angular/core";
+import { Model } from "./model";
+```
+
+The first import statement is used in the Listing to load the @angular/core module, which contains
+the key Angular functionality, including support for components. When working with modules, the import
+statement specifies the types that are imported between curly braces. In this case, the import statement is
+used to load the Component type from the module. The @angular/core module contains many classes that
+have been packaged together so that the browser can load them all in a single JavaScript file.
+The second import statement is used to load the Model class from a file in the project. The target for this
+kind of import starts with ./, which indicates that the module is defined relative to the current file.
+Notice that neither import statement includes a file extension. This is because the relationship between
+the target of an import statement and the file that is loaded by the browser is managed by a module loader,
+which I configure in the “Putting the Application Together” section.
