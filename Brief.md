@@ -115,3 +115,12 @@ to use TypeScript to be effective, for example. If you are used to using a langu
 TypeScript will be familiar and avoids dealing with some of the oddities of the JavaScript language. Vue.js
 and React don’t require TypeScript but lean toward mixing HTML, JavaScript, and CSS content together in a
 single file, which not everyone enjoys.
+
+### ANGULAR VS. ANGULARJS
+
+The original AngularJS was popular but awkward to use and required developers to deal with some
+arcane and oddly implemented features that made web application development more complex than it
+needed to be. Angular, starting with Angular 2 and continuing to the Angular 6 release described in this
+book, is a complete rewrite that is easier to learn, is easier to work with, and is much more consistent. It
+is still a complex framework, as the size of this book shows, but creating web applications with Angular
+is a more pleasant experience than with AngularJS.
