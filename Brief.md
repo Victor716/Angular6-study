@@ -107,3 +107,11 @@ browser to request and receive a completely new HTML document. In this kind of a
 is essentially a rending engine for HTML content, and all of the application logic and data resides on the
 server. The browser makes a series of stateless HTTP requests that the server handles by generating HTML
 documents dynamically.
+
+### Comparing Angular to React and Vue.js
+
+The main difference between these frameworks is the developer experience. Angular requires you
+to use TypeScript to be effective, for example. If you are used to using a language like C# or Java, then
+TypeScript will be familiar and avoids dealing with some of the oddities of the JavaScript language. Vue.js
+and React don’t require TypeScript but lean toward mixing HTML, JavaScript, and CSS content together in a
+single file, which not everyone enjoys.
